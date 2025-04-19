@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#gameArea {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #010114;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+#basket {
+    width: 80px;
+    height: 20px;
+    background-color: #e5b536;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#fallingObject {
+    font-size: 30px; /* deixa a estrela maior */
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
